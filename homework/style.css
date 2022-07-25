@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: 'Montserrat' , sans-serif;
+    color: #FFFFFF;
+}
+
+.main-container {
+    width: 1920px;
+    height: 900px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #282828;
+    position: relative;
+}
+
+.firstpage {
+   height: 950px;
+   background-image: url('./images/1.png');
+   background-size: cover;
+}     
+  .location-phone {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-left: 405px;
+    margin-right: 405px;
+    margin-bottom: 20px;
+  }
+
+.menu {
+border: 1px solid #FFFFFF;
+border-left: none;
+border-right: none;
+width: 910px;
+position: absolute;
+top: 70px;
+left: 505px;
+}
+
+td {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+.menu tr td :nth-child(2){
+border-right: 1px solid #FFFFFF;
+border-left: 1px solid #FFFFFF;
+padding-right: 20px;
+}
+
+.menu tr td :nth-child(3){
+border-right: 1px solid #FFFFFF;
+}
+
+.Buttons button{
+padding: 15px 30px;
+background-color: #99862A;
+color: #FFFFFF;
+border: none;
+}
+
+.winecrd{
+    position: absolute;
+    top: 700px;
+    left: 752px;
+  }
+  
+  .degust{
+    position: absolute;
+    top: 700px;
+    right: 747px;
+  }
+  .secondpage{
+    background-color:#282828;
+    height: 900px;
+    position: relative;
+  
+  }
+  
+  .border{
+    border: 3px solid white;
+    width: 1110px;
+    height: 656px;
+    position: absolute;
+    top: 110px;
+    right: 295px;
+  
+  }
+  .heading{
+    font-size: 36px;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   line-height: 150%;
+   position: absolute;
+   top: 60px;
+   left: 187px;
+  }
+
+  .line{
+    border: 1px solid #FFFFFF;
+    border-bottom: none;
+    width: 160px;
+    position: absolute;
+    left: 475px;
+    top: 160px;
+    margin-bottom: 40px;
+  }
+  
+  .text{
+    width: 730px;
+    height: 192px;
+    position: absolute;
+    left: 190px;
+    top: 194px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  
+  .image2{
+    width: 80px;
+    height: 160px;
+    position: absolute;
+    top: 436px;
+    left: 500px;
+  }
+
